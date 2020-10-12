@@ -1,0 +1,187 @@
+// Express - map
+
+// Basic informations
+Version=1.0
+Author=Viliam Holub
+MapName=Amerika original
+Width=50
+Height=30
+Cities=36
+
+// Terrain
+R_001=1a1a1a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a1a
+R_002=1a1a1a0a1a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a0a1a1a
+R_003=1a1a1a1a1a2a0a3e0a2a0a2a0a3a0a3a0a3a0a3a0a3a0a3a0a3a0a3a0a0a0a1a1a1a0a0a0a0a0a0a0a0a0a0a3a3g3a3a1a1a
+R_004=1a1a1a3a1a2e3e3b2a2a2a2a3a3a3a3a3a3e3a3a3a3a3a3a3g3a3a3a3a1a1a1a1a1a1a0a0a0a0a0a0a0a0a0a3a2g2a3a1a1a
+R_005=1a1a1a3a7a2c3b3a3a2a2a3a2e2d3a3e3e3f3h3d3a3a3a3a3g3a3g3a7a3a1a3a1a3a3a1a1a1a1a0a0a0a0a3a3g2g3a3a1a1a
+R_006=1a1a1a3d3a2e2h3d3a2a2a2a3g2a2d3f3b3g3b3a3h3a3a3a7g3a3g3a3a3a3a3a3a1a1a3a1a1a0a0a0a1a1a3a2g3g7a3a1a1a
+R_007=1a1a1a3a7d2b3b2e2h3a2a2e7g2e2e2b3d3b3a3a3c3h3a3a3a3d3c3h7a3a3a3a3a1a3a3a1a1a0a0a1a7a3a3e3g3c3a1a1a1a
+R_008=1a1a3a2a2a3a2a2g3b3a3a3a2b2g2b2a3a3a3a3a3a3c3a3a3a3a3d3b3d3h3a3a3a1a3a3a3a0a0a1a3a3a3g3c3c7b1a1a1a1a
+R_009=1a1a3a2a3a3a2a2c3a3a3a2e2a2a2a2a2a3a3a2a3a3a3h3e3a3a3a3a3a3c3a3a3a1a1a3a7a1a1a3e3g3a3g3a7h3a1a1a1a1a
+R_010=1a1a3a2a3a3a3a3a3d3d3a3g3b2a2a2a2e2d3a3a3a3a3c3b3d3h3a3a3a3e3h3a7a3a3a3a3a3a3a3g3h2a3c3h3c1a1a1a1a1a
+R_011=1a3a2e3b2a3a3a2a3a3a3d3b2a2g3a3a3a2a3d3d3a3a3a3e3a7g3a3a3a3g3b3a3a3e3e3b3a3a3a3g3g2e3a7c3a1a1a1a1a1a
+R_012=1a3a2g3a2a3a2a3a3a3a3a1a7a2c3a3a2a2a7a3e3h3d3e3b3d3b3h3a3a3c3a3a3a3g3b3e7a3e3e3b3a3a3d3b1a1a1a1a1a1a
+R_013=1a1a2g7a2a3a3a3a3a3a3a3a2a2e2h3e2a2a3e3b3b3e3b3e3e3d3g7d3a3e3h7h3a3g3a3g3d3b3b3e2e3d7e3b1a1a1a1a1a1a
+R_014=1a1a3g3a2a3a3a2a3a3a3e2h2a2g3f2b2b2a7b3a3a3a3d3f3b3a3b3a3d3b3b3c3a3g3e3b3a3a3e2f2a3c3b3a3a1a1a1a1a1a
+R_015=1a1a7d3h2a2a3a3a3a3a2a2g2e3b3b2a2a2a3a3d3e3d3e3b3d3h3a3a3a3a3a3a3h3h3b7a3a3e3g2a3h3a3h3a3a1a1a1a1a1a
+R_016=1a1a1a2c3e2a2a3a3a2e2e2f2g3d3a2a2a2a2a3e3b3e3b3a3a3c3a3a3a3a3a3e3g7g3a3e3e3b2b3a3c3d3c3b1a1a1a1a1a1a
+R_017=1a1a1a2a3b2a3a3a2e2d2f2b3b3a3d3b2g7a3a3b3d3b3d3d3a3e3h3d3e7d3a3g3b3c3e3b3f3e2a3d3a3a7d1a1a1a1a1a1a1a
+R_018=1a1a1a1a2a7a2a2a3g3a2b2a3a2a2a2a2g3c3a3a3a3a3a3a3d3b3b3a3b3a3d3h3a3a3b3a3g3g7a3a3d3d3a1a1a1a1a1a1a1a
+R_019=1a1a1a1a1a1a3a2a3g3a3a3a2a2a2a2e2g3a3h3a3a3a3d3d3e3d3e3d3a3a3a3g3a3a3a3e3g3g3a3a3a3a1a1a1a1a1a1a1a1a
+R_020=1a1a1a1a1a1a3a2a3g3e3e3d2e2b2a2c3b3a3g3a3a3a3a3d3b3a3b7a3d3h3a3g3a3a3a3g3b3g3a3a3a7a1a1a1a1a1a1a1a1a
+R_021=1a1a1a1a1a1a1a0a0a0a3b3a3b2a2a3a2h7a3g3a3a3a7h3e3d3h3a3a3a3c3e3h3a3a3a3c3a3c3a1a3a3a3a1a1a1a1a1a1a1a
+R_022=1a1a1a1a1a1a1a0a0a1a0a0a3a0a2a0a0a0a2c2d3a3a3c3b3h3c3a3a3a3a3b3c3a7a3a1a1a1a1a1a1a3a3a3a1a1a1a1a1a1a
+R_023=1a1a1a1a1a1a1a1a0a1a0a0a0a0a0a0a0a0a3a2a3d3h3a7a3c3d3d3h3a3a3a1a3d3b1a1a1a1a1a1a1a1a3a3a1a1a1a1a1a1a
+R_024=1a1a1a1a1a1a1a1a0a0a1a0a0a0a0a0a0a0a0a3a2a0a3a3a3a3a3h3c3a1a1a1a1a1a1a1a1a1a1a1a1a1a3a3a3a1a1a1a1a1a
+R_025=1a1a1a1a1a1a1a1a1a0a1a1a0a0a0a0a0a0a0a0a0a0a0a0a3a3a3c1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a3a1a1a1a1a1a
+R_026=1a1a1a1a1a1a1a1a0a0a0a1a1a0a0a0a0a0a0a0a0a0a0a0a0a3a3a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a
+R_027=1a1a1a1a1a1a1a1a1a1a0a0a1a1a0a0a0a0a0a0a0a0a0a0a0a0a3a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a
+R_028=1a1a1a1a1a1a1a1a1a1a1a0a1a1a0a0a0a0a0a0a0a0a0a0a0a0a0a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a
+R_029=1a1a1a1a1a1a1a1a1a1a1a0a1a1a1a0a0a0a0a0a0a0a0a0a0a0a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a
+R_030=1a1a1a1a1a1a1a1a1a1a1a1a0a1a1a1a0a0a0a0a0a0a0a0a0a0a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a1a
+
+// Cities
+M_01_X=4
+M_01_Y=4
+M_01_N=Seattle
+
+M_02_X=28
+M_02_Y=4
+M_02_N=Duluth
+
+M_03_X=24
+M_03_Y=5
+M_03_N=Fargo
+
+M_04_X=46
+M_04_Y=5
+M_04_N=Boston
+
+M_05_X=4
+M_05_Y=6
+M_05_N=Portland
+
+M_06_X=12
+M_06_Y=6
+M_06_N=Helena
+
+M_07_X=28
+M_07_Y=6
+M_07_N=St. Paul
+
+M_08_X=41
+M_08_Y=6
+M_08_N=Buffalo
+
+M_09_X=45
+M_09_Y=7
+M_09_N=New York
+
+M_10_X=36
+M_10_Y=8
+M_10_N=Detroit
+
+M_11_X=44
+M_11_Y=8
+M_11_N=Philadelphia
+
+M_12_X=32
+M_12_Y=9
+M_12_N=Chicago
+
+M_13_X=25
+M_13_Y=10
+M_13_N=Omaha
+
+M_14_X=43
+M_14_Y=10
+M_14_N=Washington
+
+M_15_X=12
+M_15_Y=11
+M_15_N=Salt Lake City
+
+M_16_X=18
+M_16_Y=11
+M_16_N=Cheyene
+
+M_17_X=36
+M_17_Y=11
+M_17_N=Cincinnati
+
+M_18_X=3
+M_18_Y=12
+M_18_N=Sacramento
+
+M_19_X=27
+M_19_Y=12
+M_19_N=Kansas City
+
+M_20_X=31
+M_20_Y=12
+M_20_N=Sant Louis
+
+M_21_X=42
+M_21_Y=12
+M_21_N=Richmond
+
+M_22_X=18
+M_22_Y=13
+M_22_N=Denver
+
+M_23_X=2
+M_23_Y=14
+M_23_N=San Francisco
+
+M_24_X=35
+M_24_Y=14
+M_24_N=Nashvile
+
+M_25_X=33
+M_25_Y=15
+M_25_N=Memphis
+
+M_26_X=17
+M_26_Y=16
+M_26_N=Santa Fe
+
+M_27_X=29
+M_27_Y=16
+M_27_N=Little Rock
+
+M_28_X=42
+M_28_Y=16
+M_28_N=Charleston
+
+M_29_X=5
+M_29_Y=17
+M_29_N=Los Angeles
+
+M_30_X=38
+M_30_Y=17
+M_30_N=Atlanta
+
+M_31_X=27
+M_31_Y=19
+M_31_N=Dallas
+
+M_32_X=41
+M_32_Y=19
+M_32_N=Jacksonville
+
+M_33_X=17
+M_33_Y=20
+M_33_N=ElPaso
+
+M_34_X=22
+M_34_Y=20
+M_34_N=Sweetwater
+
+M_35_X=33
+M_35_Y=21
+M_35_N=New Orleans
+
+M_36_X=23
+M_36_Y=22
+M_36_N=San Antonio
+
